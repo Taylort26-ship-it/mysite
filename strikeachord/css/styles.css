@@ -1,4 +1,3 @@
-```css
 /* CSS Reset */
 body, header, nav, main, footer, img, h1 {
     margin: 0;
@@ -90,12 +89,13 @@ main p {
 .map {
     border: 5px solid #373684;
 }
+
 /* Style rules for the table */
 table {
     border: 1px solid #373684;
     border-collapse: collapse;
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
 }
 
 caption {
@@ -130,4 +130,3 @@ footer a {
     color: #4645a8;
     text-decoration: none;
 }
-```
