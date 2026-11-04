@@ -1,3 +1,4 @@
+
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, h3 {
     margin: 0;
@@ -73,6 +74,21 @@ main ul {
 
 #contact {
     text-align: center;
+}
+
+/* Style rules for form elements */
+form {
+    width: auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
 }
 
 /* Style rules for footer content */
