@@ -82,6 +82,10 @@ main ul {
     list-style-type: square;
 }
 
+.round {
+    border-radius: 6px;
+}
+
 .link {
     color: #4d3319;
     text-decoration: none;
