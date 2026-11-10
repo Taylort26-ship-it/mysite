@@ -1,6 +1,6 @@
 ```css
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
+body, header, nav, main, footer, img, h1, h3, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -25,6 +25,12 @@ img {
     display: none;
 }
 
+/* Style rules for mobile headings */
+.mobile h1, .mobile h3 {
+    padding: 2%;
+    text-align: center;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -32,15 +38,15 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
+    border-top: 0.5px solid #f6eee4;
 }
 
 nav li a {
@@ -106,37 +112,3 @@ footer {
     font-size: 0.85em;
     background-color: #2a1f14;
     color: #f6eee4;
-    padding: 1% 0;
-}
-
-footer a {
-    color: #f3e6d8;
-    text-decoration: none;
-}
-
-/* Style rules for the table */
-table {
-    border: 1px solid #2a1f14;
-    border-collapse: collapse;
-    margin: 0 auto;
-}
-
-caption {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1%;
-}
-
-th, td {
-    border: 1px solid #2a1f14;
-    padding: 1%;
-}
-
-th {
-    background-color: #2a1f14;
-    color: #ffffff;
-    font-size: 1.15em;
-}
-
-tr:nth-child(odd) {
-    background
