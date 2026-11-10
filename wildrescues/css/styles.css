@@ -31,6 +31,14 @@ img {
     text-align: center;
 }
 
+.mobile h1 {
+    font-family: 'Emblema One', cursive;
+}
+
+.mobile h3 {
+    font-family: 'Lora', serif;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -59,7 +67,7 @@ nav li a {
 /* Style rules for main content */
 main {
     padding: 2%;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 main p {
@@ -112,3 +120,39 @@ footer {
     font-size: 0.85em;
     background-color: #2a1f14;
     color: #f6eee4;
+    padding: 1% 0;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
+
+/* Style rules for the table */
+table {
+    border: 1px solid #2a1f14;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td {
+    border: 1px solid #2a1f14;
+    padding: 1%;
+}
+
+th {
+    background-color: #2a1f14;
+    color: #ffffff;
+    font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+    background-color: #deccba;
+}
+```
