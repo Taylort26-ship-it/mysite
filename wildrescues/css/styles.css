@@ -1,4 +1,4 @@
-```css
+
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, h3, ul {
     margin: 0;
@@ -82,6 +82,10 @@ main ul {
     list-style-type: square;
 }
 
+#info ul {
+    margin-left: 10%;
+}
+
 .round {
     border-radius: 6px;
 }
@@ -159,4 +163,3 @@ th {
 tr:nth-child(odd) {
     background-color: #deccba;
 }
-```
